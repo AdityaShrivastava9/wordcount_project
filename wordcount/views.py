@@ -22,3 +22,8 @@ def count(request):
 
 
         return render(request, 'count.html', {'worddictionary': c, 'totalwords': totalwords})
+
+def about(request):
+        return render(request, 'about.html')
+
+
